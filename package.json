@@ -1,0 +1,33 @@
+{
+  "name": "oi.com.br",
+  "version": "1.0.0",
+  "description": "Atendimento Online",
+  "main": "index.html",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/leandrova/survivor.git"
+  },
+  "keywords": [
+    "js"
+  ],
+  "author": "Leandro Viana",
+  "contributors": [
+    {
+      "name": "Leandro Viana",
+      "email": "leandro.viana@oi.net.br"
+    }
+  ],
+  "license": "Private",
+  "homepage": "http://survivorfc.com.br/",
+  "devDependencies": {
+    "express": "^4.13.0",
+    "gulp": "^3.9.0",
+    "gulp-uglify": "^1.5.1",
+    "request": "^2.65.0"
+  },
+  "dependencies": {
+    "del": "^2.2.0",
+    "fs": "0.0.2",
+    "run-sequence": "^1.1.5"
+  }
+}
