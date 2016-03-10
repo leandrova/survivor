@@ -26,6 +26,7 @@
     "request": "^2.65.0"
   },
   "dependencies": {
+    "compression": "^1.6.1",
     "del": "^2.2.0",
     "fs": "0.0.2",
     "run-sequence": "^1.1.5"
