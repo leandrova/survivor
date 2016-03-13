@@ -33,6 +33,7 @@
     "gulp-connect-php": "0.0.7",
     "gulp-file-include": "^0.13.7",
     "http-proxy": "^1.13.2",
+    "node-env-file": "^0.1.8",
     "run-sequence": "^1.1.5"
   }
 }
