@@ -26,9 +26,13 @@
     "request": "^2.65.0"
   },
   "dependencies": {
+    "browser-sync": "^2.11.1",
     "compression": "^1.6.1",
     "del": "^2.2.0",
     "fs": "0.0.2",
+    "gulp-connect-php": "0.0.7",
+    "gulp-file-include": "^0.13.7",
+    "http-proxy": "^1.13.2",
     "run-sequence": "^1.1.5"
   }
 }
