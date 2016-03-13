@@ -1,5 +1,4 @@
-<!-- begin head -->
-    <head>
+<!-- begin base head -->
 
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
@@ -11,10 +10,8 @@
 
     <title>Survivor</title>
 
-    <link href="./css/css.css" rel="stylesheet" type="text/css">
-    <link href="./css/toolkit.css" rel="stylesheet">
-    <link href="./css/application.css" rel="stylesheet">
     <script src="./js/jquery.min.js"></script>
+    <script src="./js/chart.js"></script>
 
     <style>
       body {
@@ -24,5 +21,4 @@
       }
     </style>
 
-    </head>
-<!-- end head -->
+<!-- end base head -->

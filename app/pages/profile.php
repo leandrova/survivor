@@ -2,14 +2,17 @@
 <!DOCTYPE html>
 <html lang="en">
 
-@@include('./components/html/header.php')
+    <head>
+        @@include('../components/html/header.php')
+        <link href="./css/base_profile.css" rel="stylesheet" type="text/css">
+    </head>
 
 <body class="ang">
   
 
 <div class="anq" id="app-growl"></div>
 
-@@include('./components/html/menu.php')
+@@include('../components/html/menu.php')
 
 <div class="ans dj"
      style="background-image: url(./assets/images/temas/leandro.jpg);">
