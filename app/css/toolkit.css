@@ -8523,3 +8523,9 @@ img.zoom-img {
 .aok a {
   margin-left: 5px;
 }
+
+@media only screen and (min-width: 1024px) {
+    #page .aoi {
+        font-size: 10px;
+    }
+}

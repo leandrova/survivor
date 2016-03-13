@@ -1,98 +1,15 @@
 
-
-
-
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="keywords" content="">
-    <meta name="author" content="">
 
-    <title>Survivor - Perfil</title>
-
-    <link href="./css/css.css" rel="stylesheet" type="text/css">
-    <link href="./css/toolkit.css" rel="stylesheet">
-    <link href="./css/application.css" rel="stylesheet">
-    <script src="./js/jquery.min.js"></script>
-
-    <style>
-      /* note: this is a hack for ios iframe for bootstrap themes shopify page */
-      /* this chunk of css is not part of the toolkit :) */
-      body {
-        width: 1px;
-        min-width: 100%;
-        *width: 100%;
-      }
-    </style>
-
-  </head>
-
+@@include('./components/html/header.html')
 
 <body class="ang">
   
 
 <div class="anq" id="app-growl"></div>
 
-<nav class="ck pc os app-navbar">
-  <div class="by">
-    <div class="or">
-      <button type="button" class="ou collapsed" data-toggle="collapse" data-target="#navbar-collapse-main" aria-expanded="false">
-        <span class="cv">Toggle navigation</span>
-        <span class="ov"></span>
-        <span class="ov"></span>
-        <span class="ov"></span>
-      </button>
-      <a class="e" href="./">
-        Survivor
-      </a>
-    </div>
-    <div class="f collapse" id="navbar-collapse-main" aria-expanded="false" style="height: 1px;">
-
-        <ul class="nav navbar-nav ss">
-          <li class="active">
-            <a href="#">Mapa</a>
-          </li>
-          <li>
-            <a href="#">Classificação</a>
-          </li>
-          <li>
-            <a href="#">Rodadas</a>
-          </li>
-          <li>
-            <a href="#">Administração</a>
-          </li>
-        </ul>
-
-        <ul class="nav navbar-nav og ale ss">
-          <li>
-            <button class="cg fm ox anl" data-toggle="popover" data-original-title="" title="">
-              <img class="cu" src="./assets/images/jogadores/leandro.png">
-            </button>
-          </li>
-        </ul>
-
-        <ul class="nav navbar-nav st su sv">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Mapa</a></li>
-          <li><a href="#">Classificação</a></li>
-          <li><a href="#">Rodadas</a></li>
-          <li><a href="#">Administração</a></li>
-          <li><a href="#">Logout</a></li>
-        </ul>
-
-        <ul class="nav navbar-nav hidden">
-          <li><a href="./profile.html">Perfil</a></li>
-          <li><a href="#">Logout</a></li>
-        </ul>
-
-      </div>
-  </div>
-</nav>
-
+@@include('./components/html/menu.html')
 
 <div class="ans dj"
      style="background-image: url(./assets/images/temas/leandro.jpg);">
@@ -105,7 +22,6 @@
       </p>
     </div>
   </div>
-
 
   <script>
 
