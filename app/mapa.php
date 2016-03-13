@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 
-@@include('./components/html/header.html')
+@@include('./components/html/header.php')
 
 <body class="ang">
   
 <div class="anq" id="app-growl"></div>
 
-@@include('./components/html/menu.html')
+@@include('./components/html/menu.php')
 
 <div class="by amt">
   <div id="page" class="gc">

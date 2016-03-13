@@ -25,7 +25,7 @@ gulp.task('deploy', ['clean'], function() {
     gulp.src('./app/js/*.*')
     	.pipe(gulp.dest('dist/js'));
     console.log('Task - deploy - html');
-    gulp.src('./app/*.html')
+    gulp.src('./app/*.php')
     	.pipe(fileinclude({}))
     	.pipe(gulp.dest('./dist'));
   	return;
