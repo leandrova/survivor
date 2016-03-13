@@ -5,6 +5,5 @@ var gulp = require('gulp'),
 
 gulp.task('watch', function() {
 	console.log('Task watch')
-	gulp.watch('./app/*.html', ['deploy']);
-	gulp.watch("app/*.html").on('change', browserSync.reload);
+	gulp.watch('./app/**/*.*', ['deploy']).on('change', browserSync.reload);
 });
