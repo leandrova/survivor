@@ -32,6 +32,7 @@
     "fs": "0.0.2",
     "gulp-connect-php": "0.0.7",
     "gulp-file-include": "^0.13.7",
+    "gulp-sass": "^2.2.0",
     "http-proxy": "^1.13.2",
     "node-env-file": "^0.1.8",
     "run-sequence": "^1.1.5"
