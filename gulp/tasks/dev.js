@@ -2,6 +2,6 @@
 
 var gulp = require('gulp');
 
-gulp.task('dev', ['clean', 'deploy', 'server'], function() {
-	console.log('Task completed')
+gulp.task('dev', ['clean', 'deploy', 'server', 'watch'], function() {
+	return;
 });

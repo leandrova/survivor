@@ -1,20 +1,14 @@
 'use strict';
 
 var gulp = require('gulp'),
-    uglify = require('gulp-uglify'),
-    http = require('http'),
     express = require('express'),
-    del = require('del'),
-    runSequence = require('run-sequence'),
-    compress = require('compression'),
-    fileinclude = require('gulp-file-include'),
     connect = require('gulp-connect-php'),
     browserSync = require('browser-sync'),
     httpProxy = require('http-proxy');
     
 var server = express();
 
-gulp.task('server', ['clean','deploy','watch'], function () {
+gulp.task('server', function () {
     connect.server({
         port: 9001,
         base: 'dist',
