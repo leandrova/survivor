@@ -1,2 +1,3 @@
 /dist
 /node_modules
+/scripts/conecta_mysql.inc
