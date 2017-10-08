@@ -5,7 +5,7 @@ var gulp = require('gulp'),
 
 gulp.task('watch', function() {
 	
-	gulp.watch('./app/assets/**/*.*', ['assets'])
+	gulp.watch('./app/assets/images/**/*.*', ['assets'])
 		.on('change', browserSync.reload);
 
 	gulp.watch('./app/scripts/**/*.*', ['scripts'])

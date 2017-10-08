@@ -3,7 +3,8 @@
 
     <head>
         @@include('../components/html/header.php')
-        <link href="./css/base_index.css" rel="stylesheet" type="text/css">
+        <link href="./css/base.css" rel="stylesheet" type="text/css">
+        <link href="./css/index.css" rel="stylesheet" type="text/css">
     </head>
 
 <body class="ang">

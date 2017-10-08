@@ -16,13 +16,13 @@
 
         <ul class="nav navbar-nav ss">
           <li class="active">
-            <a href="./mapa.html">Mapa</a>
+            <a href="./mapa.php">Mapa</a>
           </li>
           <li>
-            <a href="./classificacao.html">Classificação</a>
+            <a href="./classificacao.php">Classificação</a>
           </li>
           <li>
-            <a href="./rodadas.html">Rodadas</a>
+            <a href="./rodadas.php">Rodadas</a>
           </li>
           <li>
             <a href="./admin/">Administração</a>
@@ -39,16 +39,16 @@
 
         <ul class="nav navbar-nav st su sv">
           <li><a href="./">Home</a></li>
-          <li><a href="./mapa.html">Mapa</a></li>
-          <li><a href="./classificacao.html">Classificação</a></li>
-          <li><a href="./rodadas.html">Rodadas</a></li>
+          <li><a href="./mapa.php">Mapa</a></li>
+          <li><a href="./classificacao.php">Classificação</a></li>
+          <li><a href="./rodadas.php">Rodadas</a></li>
           <li><a href="./admin/">Administração</a></li>
-          <li><a href="./logout.html">Logout</a></li>
+          <li><a href="./logout.php">Logout</a></li>
         </ul>
 
         <ul class="nav navbar-nav hidden">
-          <li><a href="./perfil.html">Perfil</a></li>
-          <li><a href="./logout.html">Logout</a></li>
+          <li><a href="./perfil.php">Perfil</a></li>
+          <li><a href="./logout.php">Logout</a></li>
         </ul>
 
       </div>

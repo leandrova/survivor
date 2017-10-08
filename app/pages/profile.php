@@ -4,7 +4,8 @@
 
     <head>
         @@include('../components/html/header.php')
-        <link href="./css/base_profile.css" rel="stylesheet" type="text/css">
+        <link href="./css/base.css" rel="stylesheet" type="text/css">
+        <link href="./css/profile.css" rel="stylesheet" type="text/css">
     </head>
 
 <body class="ang">
